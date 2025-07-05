@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C063436E2E0B002600E88F95 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = C063436D2E0B002600E88F95 /* YouTubePlayerKit */; };
+		C099A3032DE62A2A00DFABA3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C099A3022DE62A2A00DFABA3 /* FirebaseAuth */; };
+		C099A3052DE62A2A00DFABA3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C099A3042DE62A2A00DFABA3 /* FirebaseFirestore */; };
+		C099A3072DE62A2A00DFABA3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C099A3062DE62A2A00DFABA3 /* FirebaseStorage */; };
+		C099A3092DE62AEB00DFABA3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C099A3082DE62AEB00DFABA3 /* FirebaseAnalytics */; };
+		C099A3142DE632BD00DFABA3 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C099A3132DE632BD00DFABA3 /* GoogleSignIn */; };
+		C099A3162DE632DE00DFABA3 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C099A3152DE632DE00DFABA3 /* GoogleSignInSwift */; };
+		C0E691AC2DFF3C1C00A2A2B5 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = C0E691AB2DFF3C1C00A2A2B5 /* Auth */; };
+		C0E691AE2DFF3C1C00A2A2B5 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = C0E691AD2DFF3C1C00A2A2B5 /* Functions */; };
+		C0E691B02DFF3C1C00A2A2B5 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = C0E691AF2DFF3C1C00A2A2B5 /* PostgREST */; };
+		C0E691B22DFF3C1C00A2A2B5 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = C0E691B12DFF3C1C00A2A2B5 /* Realtime */; };
+		C0E691B42DFF3C1C00A2A2B5 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = C0E691B32DFF3C1C00A2A2B5 /* Supabase */; };
+		C0E691B72DFF3C7400A2A2B5 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = C0E691B62DFF3C7400A2A2B5 /* SpotifyiOS */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C02A3FB42DE6095500E1783F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02A3F9B2DE6095200E1783F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02A3FA22DE6095200E1783F;
+			remoteInfo = PodcastRoom;
+		};
+		C02A3FBE2DE6095500E1783F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02A3F9B2DE6095200E1783F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C02A3FA22DE6095200E1783F;
+			remoteInfo = PodcastRoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02A3FA32DE6095200E1783F /* PodcastRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A3FB32DE6095500E1783F /* PodcastRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02A3FBD2DE6095500E1783F /* PodcastRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodcastRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C099A31C2DE636C500DFABA3 /* Exceptions for "PodcastRoom" folder in "PodcastRoom" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C02A3FA22DE6095200E1783F /* PodcastRoom */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C02A3FA52DE6095200E1783F /* PodcastRoom */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C099A31C2DE636C500DFABA3 /* Exceptions for "PodcastRoom" folder in "PodcastRoom" target */,
+			);
+			path = PodcastRoom;
+			sourceTree = "<group>";
+		};
+		C02A3FB62DE6095500E1783F /* PodcastRoomTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PodcastRoomTests;
+			sourceTree = "<group>";
+		};
+		C02A3FC02DE6095500E1783F /* PodcastRoomUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PodcastRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C02A3FA02DE6095200E1783F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E691B42DFF3C1C00A2A2B5 /* Supabase in Frameworks */,
+				C099A3142DE632BD00DFABA3 /* GoogleSignIn in Frameworks */,
+				C063436E2E0B002600E88F95 /* YouTubePlayerKit in Frameworks */,
+				C099A3032DE62A2A00DFABA3 /* FirebaseAuth in Frameworks */,
+				C0E691AE2DFF3C1C00A2A2B5 /* Functions in Frameworks */,
+				C0E691B22DFF3C1C00A2A2B5 /* Realtime in Frameworks */,
+				C0E691B02DFF3C1C00A2A2B5 /* PostgREST in Frameworks */,
+				C099A3052DE62A2A00DFABA3 /* FirebaseFirestore in Frameworks */,
+				C0E691B72DFF3C7400A2A2B5 /* SpotifyiOS in Frameworks */,
+				C0E691AC2DFF3C1C00A2A2B5 /* Auth in Frameworks */,
+				C099A3162DE632DE00DFABA3 /* GoogleSignInSwift in Frameworks */,
+				C099A3092DE62AEB00DFABA3 /* FirebaseAnalytics in Frameworks */,
+				C099A3072DE62A2A00DFABA3 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A3FB02DE6095500E1783F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A3FBA2DE6095500E1783F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C02A3F9A2DE6095200E1783F = {
+			isa = PBXGroup;
+			children = (
+				C02A3FA52DE6095200E1783F /* PodcastRoom */,
+				C02A3FB62DE6095500E1783F /* PodcastRoomTests */,
+				C02A3FC02DE6095500E1783F /* PodcastRoomUITests */,
+				C02A3FA42DE6095200E1783F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C02A3FA42DE6095200E1783F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C02A3FA32DE6095200E1783F /* PodcastRoom.app */,
+				C02A3FB32DE6095500E1783F /* PodcastRoomTests.xctest */,
+				C02A3FBD2DE6095500E1783F /* PodcastRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C02A3FA22DE6095200E1783F /* PodcastRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A3FC72DE6095500E1783F /* Build configuration list for PBXNativeTarget "PodcastRoom" */;
+			buildPhases = (
+				C02A3F9F2DE6095200E1783F /* Sources */,
+				C02A3FA02DE6095200E1783F /* Frameworks */,
+				C02A3FA12DE6095200E1783F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C02A3FA52DE6095200E1783F /* PodcastRoom */,
+			);
+			name = PodcastRoom;
+			packageProductDependencies = (
+				C099A3022DE62A2A00DFABA3 /* FirebaseAuth */,
+				C099A3042DE62A2A00DFABA3 /* FirebaseFirestore */,
+				C099A3062DE62A2A00DFABA3 /* FirebaseStorage */,
+				C099A3082DE62AEB00DFABA3 /* FirebaseAnalytics */,
+				C099A3132DE632BD00DFABA3 /* GoogleSignIn */,
+				C099A3152DE632DE00DFABA3 /* GoogleSignInSwift */,
+				C0E691AB2DFF3C1C00A2A2B5 /* Auth */,
+				C0E691AD2DFF3C1C00A2A2B5 /* Functions */,
+				C0E691AF2DFF3C1C00A2A2B5 /* PostgREST */,
+				C0E691B12DFF3C1C00A2A2B5 /* Realtime */,
+				C0E691B32DFF3C1C00A2A2B5 /* Supabase */,
+				C0E691B62DFF3C7400A2A2B5 /* SpotifyiOS */,
+				C063436D2E0B002600E88F95 /* YouTubePlayerKit */,
+			);
+			productName = PodcastRoom;
+			productReference = C02A3FA32DE6095200E1783F /* PodcastRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C02A3FB22DE6095500E1783F /* PodcastRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A3FCA2DE6095500E1783F /* Build configuration list for PBXNativeTarget "PodcastRoomTests" */;
+			buildPhases = (
+				C02A3FAF2DE6095500E1783F /* Sources */,
+				C02A3FB02DE6095500E1783F /* Frameworks */,
+				C02A3FB12DE6095500E1783F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02A3FB52DE6095500E1783F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C02A3FB62DE6095500E1783F /* PodcastRoomTests */,
+			);
+			name = PodcastRoomTests;
+			productName = PodcastRoomTests;
+			productReference = C02A3FB32DE6095500E1783F /* PodcastRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C02A3FBC2DE6095500E1783F /* PodcastRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02A3FCD2DE6095500E1783F /* Build configuration list for PBXNativeTarget "PodcastRoomUITests" */;
+			buildPhases = (
+				C02A3FB92DE6095500E1783F /* Sources */,
+				C02A3FBA2DE6095500E1783F /* Frameworks */,
+				C02A3FBB2DE6095500E1783F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02A3FBF2DE6095500E1783F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C02A3FC02DE6095500E1783F /* PodcastRoomUITests */,
+			);
+			name = PodcastRoomUITests;
+			productName = PodcastRoomUITests;
+			productReference = C02A3FBD2DE6095500E1783F /* PodcastRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02A3F9B2DE6095200E1783F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C02A3FA22DE6095200E1783F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C02A3FB22DE6095500E1783F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C02A3FA22DE6095200E1783F;
+					};
+					C02A3FBC2DE6095500E1783F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C02A3FA22DE6095200E1783F;
+					};
+				};
+			};
+			buildConfigurationList = C02A3F9E2DE6095200E1783F /* Build configuration list for PBXProject "PodcastRoom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C02A3F9A2DE6095200E1783F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C099A3012DE62A2A00DFABA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C099A3122DE6325700DFABA3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				C0E691B52DFF3C7400A2A2B5 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+				C063436C2E0B002600E88F95 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C02A3FA42DE6095200E1783F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C02A3FA22DE6095200E1783F /* PodcastRoom */,
+				C02A3FB22DE6095500E1783F /* PodcastRoomTests */,
+				C02A3FBC2DE6095500E1783F /* PodcastRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02A3FA12DE6095200E1783F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A3FB12DE6095500E1783F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A3FBB2DE6095500E1783F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C02A3F9F2DE6095200E1783F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A3FAF2DE6095500E1783F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02A3FB92DE6095500E1783F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C02A3FB52DE6095500E1783F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02A3FA22DE6095200E1783F /* PodcastRoom */;
+			targetProxy = C02A3FB42DE6095500E1783F /* PBXContainerItemProxy */;
+		};
+		C02A3FBF2DE6095500E1783F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C02A3FA22DE6095200E1783F /* PodcastRoom */;
+			targetProxy = C02A3FBE2DE6095500E1783F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C02A3FC52DE6095500E1783F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C02A3FC62DE6095500E1783F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C02A3FC82DE6095500E1783F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PodcastRoom/PodcastRoom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PodcastRoom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastRoom/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "PodcastRoom needs location access to verify you're at location-based events for voting.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "PodcastRoom needs location access to verify you're at location-based events for voting.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.42project.PodcastRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C02A3FC92DE6095500E1783F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PodcastRoom/PodcastRoom.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PodcastRoom/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PodcastRoom/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "PodcastRoom needs location access to verify you're at location-based events for voting.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "PodcastRoom needs location access to verify you're at location-based events for voting.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.42project.PodcastRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C02A3FCB2DE6095500E1783F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.42project.PodcastRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PodcastRoom";
+			};
+			name = Debug;
+		};
+		C02A3FCC2DE6095500E1783F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.42project.PodcastRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodcastRoom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PodcastRoom";
+			};
+			name = Release;
+		};
+		C02A3FCE2DE6095500E1783F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.42project.PodcastRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PodcastRoom;
+			};
+			name = Debug;
+		};
+		C02A3FCF2DE6095500E1783F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.42project.PodcastRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PodcastRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02A3F9E2DE6095200E1783F /* Build configuration list for PBXProject "PodcastRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A3FC52DE6095500E1783F /* Debug */,
+				C02A3FC62DE6095500E1783F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02A3FC72DE6095500E1783F /* Build configuration list for PBXNativeTarget "PodcastRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A3FC82DE6095500E1783F /* Debug */,
+				C02A3FC92DE6095500E1783F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02A3FCA2DE6095500E1783F /* Build configuration list for PBXNativeTarget "PodcastRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A3FCB2DE6095500E1783F /* Debug */,
+				C02A3FCC2DE6095500E1783F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02A3FCD2DE6095500E1783F /* Build configuration list for PBXNativeTarget "PodcastRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02A3FCE2DE6095500E1783F /* Debug */,
+				C02A3FCF2DE6095500E1783F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C063436C2E0B002600E88F95 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		C099A3012DE62A2A00DFABA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+		C099A3122DE6325700DFABA3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		C0E691B52DFF3C7400A2A2B5 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C063436D2E0B002600E88F95 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C063436C2E0B002600E88F95 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+		C099A3022DE62A2A00DFABA3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C099A3012DE62A2A00DFABA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C099A3042DE62A2A00DFABA3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C099A3012DE62A2A00DFABA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C099A3062DE62A2A00DFABA3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C099A3012DE62A2A00DFABA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C099A3082DE62AEB00DFABA3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C099A3012DE62A2A00DFABA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C099A3132DE632BD00DFABA3 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C099A3122DE6325700DFABA3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C099A3152DE632DE00DFABA3 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C099A3122DE6325700DFABA3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		C0E691AB2DFF3C1C00A2A2B5 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		C0E691AD2DFF3C1C00A2A2B5 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		C0E691AF2DFF3C1C00A2A2B5 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		C0E691B12DFF3C1C00A2A2B5 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		C0E691B32DFF3C1C00A2A2B5 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E691AA2DFF3C1C00A2A2B5 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		C0E691B62DFF3C7400A2A2B5 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E691B52DFF3C7400A2A2B5 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C02A3F9B2DE6095200E1783F /* Project object */;
+}
