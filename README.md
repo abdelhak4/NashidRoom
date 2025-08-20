@@ -63,8 +63,8 @@ The script will:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/abdelhak4/intra_nashid.git
-cd intra_nashid
+git clone git@github.com:abdelhak4/NashidRoom.git
+cd NashidRoom
 ```
 
 2. Open the project in Xcode:
@@ -144,4 +144,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Project Owner - [@abdelhak4](https://github.com/abdelhak4)
 
-Project Repository: [https://github.com/abdelhak4/intra_nashid](https://github.com/abdelhak4/intra_nashid)
+Project Repository: [https://github.com/abdelhak4/NashidRoom](https://github.com/abdelhak4/NashidRoom)
