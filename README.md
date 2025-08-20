@@ -2,7 +2,14 @@
 
 NashidRoom is a social nashid streaming application that allows users to create and join listening events, share tracks, vote on playlists, and enjoy nashid together in real-time. Whether hosting a remote listening party or discovering new nashid with friends, NashidRoom makes collaborative listening seamless and interactive.
 
-![PodcastRoom App](https://via.placeholder.com/800x400?text=PodcastRoom+App)
+## Demo
+
+- **Click to whach 👇**
+<a href="https://vimeo.com/1111701620">
+  <img src="https://github.com/user-attachments/assets/691cc4a1-8583-4bc7-86b0-01c6bd04be73" width="600" height="2000" />
+</a>
+
+
 
 ## Features
 
