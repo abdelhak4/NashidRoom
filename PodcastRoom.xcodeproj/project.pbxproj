@@ -46,7 +46,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C099A31C2DE636C500DFABA3 /* Exceptions for "PodcastRoom" folder in "PodcastRoom" target */ = {
+		C098C7F92E5618A3007EE27D /* Exceptions for "PodcastRoom" folder in "PodcastRoom" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -59,7 +59,7 @@
 		C02A3FA52DE6095200E1783F /* PodcastRoom */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C099A31C2DE636C500DFABA3 /* Exceptions for "PodcastRoom" folder in "PodcastRoom" target */,
+				C098C7F92E5618A3007EE27D /* Exceptions for "PodcastRoom" folder in "PodcastRoom" target */,
 			);
 			path = PodcastRoom;
 			sourceTree = "<group>";
